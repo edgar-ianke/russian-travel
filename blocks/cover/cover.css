@@ -1,0 +1,15 @@
+.cover {
+    width: 100%;
+    max-width: 1184px;
+    max-height: 740px;
+    height: calc(100vw*0.625);
+    margin: 92px auto 0;
+    position: relative;
+}
+
+@media screen and (min-width: 1184px) {
+    .cover {
+        width: 100%;
+        height: calc(100vw*0.625-10px);
+    }
+}
