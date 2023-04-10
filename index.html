@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествие по России</title>
-    <link rel="stylesheet" href="./pages/travel-russia.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
-      <img src="./images/__logo.svg" alt="Russia-logo" class="header__logo" />
-      <div>
-        <a href="#" class="header__lang-link">Ru</a>
+      <img src="./images/__logo.svg" alt="Логотип" class="header__logo" />
+      <div class="header__lang-links">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
         <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
@@ -18,7 +18,7 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <img src="./images/__image.png" alt="route" class="lead__image" />
+        <img src="./images/__image.png" alt="маршрут" class="lead__image" />
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
@@ -31,25 +31,27 @@
           взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы
           выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <li class="intro__list"><span class="intro__span-accent">Часовых поясов</span> 11</li>
-        <li class="intro__list"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
-        <li class="intro__list"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-        <li class="intro__list"><span class="intro__span-accent">Природных заповедников</span> 105</li>
-        <li class="intro__list"><span class="intro__span-accent">Аэропортов</span> 241</li>
+        <ul class="intro__lists">
+          <li class="intro__list"><span class="intro__span-accent">Часовых поясов</span> 11</li>
+          <li class="intro__list"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__list"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__list"><span class="intro__span-accent">Природных заповедников</span> 105</li>
+          <li class="intro__list"><span class="intro__span-accent">Аэропортов</span> 241</li>
+        </ul>
       </section>
       <section class="photo-grid">
-        <img src="./images/1__item.png" alt="1" class="photo-grid__item" />
-        <img src="./images/2__item.png" alt="2" class="photo-grid__item" />
-        <img src="./images/3__item.png" alt="3" class="photo-grid__item" />
-        <img src="./images/4__item.png" alt="4" class="photo-grid__item" />
-        <img src="./images/5__item.png" alt="5" class="photo-grid__item" />
-        <img src="./images/6__item.png" alt="6" class="photo-grid__item" />
-        <img src="./images/7__item.png" alt="7" class="photo-grid__item" />
-        <img src="./images/8__item.png" alt="8" class="photo-grid__item" />
-        <img src="./images/9__item.png" alt="9" class="photo-grid__item" />
-        <img src="./images/10__item.png" alt="10" class="photo-grid__item" />
-        <img src="./images/11__item.png" alt="11" class="photo-grid__item" />
-        <img src="./images/12__item.png" alt="12" class="photo-grid__item" />
+        <img src="./images/1__item.png" alt="окно" class="photo-grid__item" />
+        <img src="./images/2__item.png" alt="горы" class="photo-grid__item" />
+        <img src="./images/3__item.png" alt="собака" class="photo-grid__item" />
+        <img src="./images/4__item.png" alt="лес" class="photo-grid__item" />
+        <img src="./images/5__item.png" alt="лед" class="photo-grid__item" />
+        <img src="./images/6__item.png" alt="море" class="photo-grid__item" />
+        <img src="./images/7__item.png" alt="еще-горы" class="photo-grid__item" />
+        <img src="./images/8__item.png" alt="пешеходный-переход" class="photo-grid__item" />
+        <img src="./images/9__item.png" alt="еще-больше-гор" class="photo-grid__item" />
+        <img src="./images/10__item.png" alt="горы-и-поле" class="photo-grid__item" />
+        <img src="./images/11__item.png" alt="горы-и-пляж" class="photo-grid__item" />
+        <img src="./images/12__item.png" alt="горы-и-облака" class="photo-grid__item" />
       </section>
       <section class="places">
         <div class="places__place">
@@ -163,13 +165,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
         <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
         <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
         <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
         <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-      </div>
+      </nav>
       <p class="footer__copyright">© 2023. Эдгар Янке</p>
     </footer>
   </body>

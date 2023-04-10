@@ -4,9 +4,10 @@
     line-height: 1.63;
     color: #FFFFFF;
     margin: 0;
+    padding-top: 26px;
 }
 .places__paragraph:first-child {
-    padding-bottom: 26px;
+    padding-top: 0;
 }
 
 @media screen and (max-width: 768px) {

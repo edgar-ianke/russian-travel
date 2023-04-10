@@ -5,11 +5,11 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
+    padding-left:18px;
 }
 
 .header__lang-link:first-child {
-    padding-right: 18px;
-    text-decoration: underline;
+    padding-left: 0;
 }
 
 @media screen and (max-width: 427px) {
