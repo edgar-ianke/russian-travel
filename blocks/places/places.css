@@ -2,10 +2,11 @@
     margin: 0 auto;
     width: fit-content;
     max-width: 984px;
+    width: calc(100% - 96px);
     padding-top: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .places {
         max-width: calc(100% - 48px);
     }
@@ -13,7 +14,7 @@
 
 @media screen and (max-width: 642px) {
     .places {
-        max-width: 100%;
+        min-width: 100%;
     }
 }
 

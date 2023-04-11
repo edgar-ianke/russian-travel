@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-rows: min-content minmax(min-content, 460px);
-    grid-template-columns: minmax(min-content, 460px) 484px;
+    grid-template-columns: 460px 1fr;
     row-gap: 48px;
     column-gap: 40px;
     padding-bottom: 80px;
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1024px) {
     .places__place {
         grid-template-rows: min-content minmax(min-content, 440px);
-        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+        grid-template-columns: 440px 1fr;
         column-gap: 32px;
     }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 768px) {
     .places__place {
         grid-template-rows: min-content minmax(min-content, 340px);
-        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
         padding-bottom: 72px;
     }
